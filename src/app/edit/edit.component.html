@@ -1,0 +1,13 @@
+<div>
+    <h1>EDIT</h1>
+    <form>
+        <p>edit user={{id}}</p><br>
+        <label>Username:</label>
+        <input type="text" [(ngModel)]="editdata.username" name="username"><br>
+        <label>Password:</label><br>
+        <input type="text" [(ngModel)]="editdata.email" email="email"><br>
+        <label>Age:</label>
+        <input type="text" [(ngModel)]="editdata.age" age="age"><br>
+      <button (click)="edit()">Submit</button>
+    </form>
+</div>

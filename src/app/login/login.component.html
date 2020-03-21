@@ -1,0 +1,10 @@
+<div class="div1">
+    <h1>Login</h1><form>
+<p><b> username:</b></p>
+<input type="text" [(ngmodel)]="logindata.username" name="username" class="form-control">
+<br>
+<p><b>password:</b></p>
+<input type="text" [(ngmodel)]="logindata.password" password="password" class="form-control"><br>
+<br><button (click)="userLogin()" type="button">login</button>
+</form>
+</div>
